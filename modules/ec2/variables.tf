@@ -14,7 +14,7 @@ variable "private_subnet_id" {
 }
 
 variable "key_name" {
-  description = "SSH key pair name"
+  description = "first-key"
   type        = string
 }
 

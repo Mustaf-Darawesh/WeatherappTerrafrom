@@ -27,13 +27,13 @@ variable "key_name" {
 variable "jump_instance_type" {
   description = "Instance type for jump server"
   type        = string
-  default     = "t2.medium"  # Added default value
+  default     = "t2.micro"  # Added default value
 }
 
 variable "db_instance_type" {
   description = "Instance type for database server"
   type        = string
-  default     = "t2.small"  # Added default value
+  default     = "t2.micro"  # Added default value
 }
 
 variable "cluster_name" {
